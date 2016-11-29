@@ -545,6 +545,11 @@ footer{
 	.rotateArea{
 		flex-direction: column;
 	}
+	#logopromo{
+		top: none;
+		right: none;
+		bottom: 10px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -554,6 +559,11 @@ footer{
 	}
 	.rotateArea{
 		flex-direction: column;
+	}
+	#logopromo{
+		top: none;
+		right: none;
+		bottom: 10px;
 	}
 }
 
@@ -565,6 +575,11 @@ footer{
 	}
 	.rotateArea{
 		flex-direction: row;
+	}
+	#logopromo{
+		top: none;
+		right: none;
+		bottom: 10px;
 	}
 
 
