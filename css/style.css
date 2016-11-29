@@ -563,6 +563,9 @@ footer{
 	.heightmin{
 		min-height: 1448px;
 	}
+	.rotateArea{
+		flex-direction: row;
+	}
 
 
 }
@@ -572,6 +575,9 @@ footer{
 	.heightmin{
 		min-height: 1672px;
 	}
+	.rotateArea{
+		flex-direction: row;
+	}
 
 }
 
@@ -579,6 +585,9 @@ footer{
 @media screen and (min-width : 1280px) {
 	.heightmin{
 		min-height: 1960px;
+	}
+	.rotateArea{
+		flex-direction: row;
 	}
 
 }
@@ -588,6 +597,9 @@ footer{
 	.heightmin{
 		min-height: 2600px;
 	}
+	.rotateArea{
+		flex-direction: row;
+	}
 
 }
 
@@ -595,6 +607,9 @@ footer{
 @media screen and (min-width : 3840px) {
 	.heightmin{
 		min-height: 4520px;
+	}
+	.rotateArea{
+		flex-direction: row;
 	}
 
 }
