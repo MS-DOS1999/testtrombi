@@ -142,6 +142,7 @@ header{
 }
 
 #logopromo{
+	display: block;
 	position: absolute;
 	z-index: 2;
 	font-family: 'albaregular';
@@ -150,6 +151,11 @@ header{
 	vertical-align: middle;
 	line-height: 100px;
 	color: rgb(220, 220, 220);
+}
+#downto{
+	display: none;
+	text-align: center;
+	width: 100%;
 }
 
 #titletrombi{
@@ -546,9 +552,17 @@ footer{
 		flex-direction: column;
 	}
 	#logopromo{
-		top: none;
-		right: none;
-		bottom: 10px;
+		display: none;
+	}
+	#downto{
+		display: block;
+		position: absolute;
+		z-index: 2;
+		font-family: 'albaregular';
+		bottom: 20px;
+		vertical-align: middle;
+		line-height: 100px;
+		color: rgb(220, 220, 220);
 	}
 }
 
@@ -561,9 +575,17 @@ footer{
 		flex-direction: column;
 	}
 	#logopromo{
-		top: none;
-		right: none;
-		bottom: 10px;
+		display: none;
+	}
+	#downto{
+		display: block;
+		position: absolute;
+		z-index: 2;
+		font-family: 'albaregular';
+		bottom: 20px;
+		vertical-align: middle;
+		line-height: 100px;
+		color: rgb(220, 220, 220);
 	}
 }
 
@@ -577,9 +599,10 @@ footer{
 		flex-direction: row;
 	}
 	#logopromo{
-		top: none;
-		right: none;
-		bottom: 10px;
+		display: block;
+	}
+	#downto{
+		display: none;
 	}
 
 
@@ -593,6 +616,12 @@ footer{
 	.rotateArea{
 		flex-direction: row;
 	}
+	#logopromo{
+		display: block;
+	}
+	#downto{
+		display: none;
+	}
 
 }
 
@@ -603,6 +632,12 @@ footer{
 	}
 	.rotateArea{
 		flex-direction: row;
+	}
+	#logopromo{
+		display: block;
+	}
+	#downto{
+		display: none;
 	}
 
 }
@@ -615,6 +650,12 @@ footer{
 	.rotateArea{
 		flex-direction: row;
 	}
+	#logopromo{
+		display: block;
+	}
+	#downto{
+		display: none;
+	}
 
 }
 
@@ -625,6 +666,12 @@ footer{
 	}
 	.rotateArea{
 		flex-direction: row;
+	}
+	#logopromo{
+		display: block;
+	}
+	#downto{
+		display: none;
 	}
 
 }
