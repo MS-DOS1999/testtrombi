@@ -542,12 +542,18 @@ footer{
 	.heightmin{
 		min-height: 1000px;
 	}
+	.rotateArea{
+		flex-direction: column;
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media screen and (min-width : 480px) {
 	.heightmin{
 		min-height: 1160px;
+	}
+	.rotateArea{
+		flex-direction: column;
 	}
 }
 
